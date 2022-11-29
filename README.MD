@@ -22,10 +22,10 @@ Una de las formas más sencillas es introducir el script dentro de las carpetas 
 
 ![Carpetas predefinidas](/img/2.png)
 
--   `cron.hourly/`: Los scripts se ejecutan cada hora.
--   `cron.daily/`: Los scripts se ejecutan diariamente.
--   `cron.monthly/`: Los scripts se ejecutan mensualmente.
--   `cron.weekly/`: Los scripts se ejecutan semanalmente.
+-   `/etc/cron.hourly/`: Los scripts se ejecutan cada hora.
+-   `/etc/cron.daily/`: Los scripts se ejecutan diariamente.
+-   `/etc/cron.monthly/`: Los scripts se ejecutan mensualmente.
+-   `/etc/cron.weekly/`: Los scripts se ejecutan semanalmente.
 
 Es una manera sencilla de programar nuestros scripts, aunque no nos presta las posibilidades de programar las tareas manualmente.
 
